@@ -88,7 +88,7 @@ class _ImageUploadFileState extends State<ImageUploadFile> {
                         : Container(
                           child: Center(
                             child: Image.file(//	(Image.file is a Widget-	flutter/material.dart	Displays an image from a File object
-                              File(image!.path).absolute,//File is a Constructor of File class which Creates a File object from a file path
+                              File(image!.path).absolute,//File is a Constructor of File class which Creates a File object from a file path ,This returns the absolute (full) path of the file.
                               height: 300,
                               width: 300,
                               fit: BoxFit.cover,
